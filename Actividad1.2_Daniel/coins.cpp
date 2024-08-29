@@ -141,9 +141,9 @@ int main() {
         printChange(dynamicResult.coins, denominations);
 
         // // Greedy approach
-        // std::cout << "\nGreedy:\n";
-        // ChangeResult greedyResult = greedyChange(changeAmount, denominations, availableCoins);
-        // printChange(greedyResult.coins, denominations);
+        std::cout << "\nGreedy:\n";
+        ChangeResult greedyResult = greedyChange(changeAmount, denominations, availableCoins);
+        printChange(greedyResult.coins, denominations);
 
       
         // std::cout << "\nCambio: " << changeAmount << "$\n";
